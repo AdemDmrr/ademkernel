@@ -5,14 +5,14 @@
  - [Docker](https://www.docker.com/) Ortamı kurma.
  - [Qemu](https://www.qemu.org/) Ortamı test etme.
 
-## Setup
+## Kurulum
 
 Ortam için İmaj kurun;
  - `docker build buildenv -t myos-buildenv`
 
-## Build
+##İnşa Etmek 
 
-Ortamı Build Etmek İçin:
+Ortamı İnşa Etmek İçin:
  - Linux or MacOS: `docker run --rm -it -v "$(pwd)":/root/env myos-buildenv`
  - Windows (CMD): `docker run --rm -it -v "%cd%":/root/env myos-buildenv`
  - Windows (PowerShell): `docker run --rm -it -v "${pwd}:/root/env" myos-buildenv`
