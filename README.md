@@ -10,7 +10,7 @@
 Ortam için İmaj kurun;
  - `docker build buildenv -t myos-buildenv`
 
-##İnşa Etmek 
+## İnşa Etmek 
 
 Ortamı İnşa Etmek İçin:
  - Linux or MacOS: `docker run --rm -it -v "$(pwd)":/root/env myos-buildenv`
