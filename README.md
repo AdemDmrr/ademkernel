@@ -18,7 +18,7 @@ Ortamı İnşa Etmek İçin:
  - Windows (PowerShell): `docker run --rm -it -v "${pwd}:/root/env" myos-buildenv`
  - Şunları kullanıyorsanız Linux komutu ile build edin; `WSL`, `msys2` or `git bash`
 
-x86 Build
+x86 ISO Oluşturma
  - `make build-x86_64`
 
 Çıkmak için; `exit`.
